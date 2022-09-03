@@ -1,0 +1,12 @@
+model Z:\home\pablo\university\08_programacion_no_lineal_y_computacion_40209043\proyectos_40209043\toTheMoon\ampl_version\1.0_TTM.mod;
+data Z:\home\pablo\university\08_programacion_no_lineal_y_computacion_40209043\proyectos_40209043\toTheMoon\ampl_version\1.0_TTM.dat;
+
+solve;
+print "sx, sy";
+print {n in NN}: s[1, n], ";", s[2, n];
+
+print "%%%%%%%%%%%%%%%%%%%%%%%";
+print "Empuje";
+print {n in NN}: (Th[1, n]^2 + Th[2, n]^2)^(1/2);
+#display Th;
+#display s;

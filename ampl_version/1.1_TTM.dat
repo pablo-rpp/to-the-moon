@@ -1,0 +1,18 @@
+#Parámetros estáticos
+
+param G := 1; #Constante de gravitación
+param roE := 2; #Radio de la Tierra
+param roM := 1; #Radio de la Luna
+param mE := 10; #Masa de la Tierra
+param mM := 1; #Masa de la Luna
+param L := 20; #Distancia del centro de la Tierra al centro de la Luna
+let rE[1] := 0; #Posición x centro de la tierra
+let rE[2] := 0; #Posición y centro de la tierra
+let rM[1] := L; #Posición x centro de la luna
+let rM[2] := 0; #Posición y centro de la luna
+let TN := 1; #Tiempo
+
+#Parámetros variables
+let N := 100; #Número de intervalos
+let v0 := 20; #Módulo velocidad de salida
+let vN := 0; #Módulo velocidad de llegada
