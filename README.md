@@ -7,4 +7,4 @@ Modelo matemático para calcular la trayectoria de vuelo de un cohete desde un p
 ## Autores
 
 * Ramírez Puertas, Pablo
-* Esteban Agenjo, Ra
+* Esteban Agenjo, Raúl
